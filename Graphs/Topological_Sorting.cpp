@@ -21,3 +21,24 @@ void topological_sorting(){
 	}
 	reverse(all(order));
 }
+//Forma de detectar un ciclo
+vector<bool> num_prc; //nodos que se estan procesando
+bool cycle = false;
+
+void DFS(int v) {
+    if (num_prc[v]) {
+        cycle = true;
+        return;
+    }
+    if (vis[v]) {
+        return;
+    }
+    num_prc[v] = true;
+    for (int u : adj[v]) {
+        DFS(u);
+        if (cycle) return; 
+    }
+    vis[v] = true;
+    order.pb(v);
+    num_prc[v] = false;
+}

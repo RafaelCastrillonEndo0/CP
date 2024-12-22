@@ -1,3 +1,4 @@
+//Minimum Spanning tree con Union-Find
 struct Edge {
     int u, v, weight;
     bool operator<(Edge const& other) {

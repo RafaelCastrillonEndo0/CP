@@ -10,10 +10,10 @@ void solve() {
     deque<int> dq;
     vector<int> ans;
     for (int i = 0; i < n; i++) {
-    	while(!dq.empty() && dq.front()<=i-k){
+    	while(!dq.empty() && dq.front()<=i-k){//eliminar elementos fuera de la ventana
     		dq.pop_front();
     	}
-        while (!dq.empty() && a[dq.back()] >= a[i]) {
+        while (!dq.empty() && a[dq.back()] >= a[i]) {//eliminar elemento que no son utiles para el minimo
             dq.pop_back();
         }
         dq.push_back(i);

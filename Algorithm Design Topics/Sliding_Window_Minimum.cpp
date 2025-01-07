@@ -1,3 +1,6 @@
+//Ventana deslizante, se está encontrando el valor más pequeño en una venta de K elementos
+//O(n)
+
 void solve() {
     int n, k;cin>>n>>k;
     vector<int>a(n);

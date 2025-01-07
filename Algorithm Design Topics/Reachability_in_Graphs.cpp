@@ -20,6 +20,11 @@ void solve() {
     		reach[v]|=reach[u];
     	}
     }
+    for(int v=0; v<n; v++){
+    	for(int u: adj[v]){
+    		reach[v]|=reach[u];
+    	}
+    }
     for(int node=0; node<n; node++){
     	int cnt= reach[node].count();
     	cout<<cnt<<" ";

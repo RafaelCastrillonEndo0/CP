@@ -1,7 +1,7 @@
 
-El Sparse Table es una estructura de datos eficiente que permite realizar consultas rápidas en arreglos estáticos, es decir,
-arreglos que no cambian después de ser construidos. Es muy útil para problemas donde se necesita consultar valores como mínimos, máximos,
-o valores de una operación asociativa (por ejemplo, GCD o suma) en un rango específico de índices.
+//El Sparse Table es una estructura de datos eficiente que permite realizar consultas rápidas en arreglos estáticos, es decir,
+//arreglos que no cambian después de ser construidos. Es muy útil para problemas donde se necesita consultar valores como mínimos, máximos,
+//o valores de una operación asociativa (por ejemplo, GCD o suma) en un rango específico de índices.
 
 
 

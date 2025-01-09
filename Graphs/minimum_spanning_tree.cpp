@@ -1,3 +1,13 @@
+El propósito principal de un Minimum Spanning Tree es encontrar un conjunto de aristas que conecten todos los vértices de un grafo de manera eficiente,
+de tal forma que la suma de los pesos de esas aristas sea lo más pequeña posible.
+
+
+Propiedades clave:
+Conexión de todos los vértices: Un MST debe conectar todos los vértices del grafo, sin ningún vértice desconectado.
+Minimización del peso: La suma de los pesos de las aristas en el MST debe ser mínima entre todos los posibles árboles de expansión del grafo.
+Árbol: El MST es un árbol, por lo que no tiene ciclos.
+
+
 //Minimum Spanning tree con Union-Find
 struct Edge {
     int u, v, weight;

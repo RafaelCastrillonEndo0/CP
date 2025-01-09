@@ -1,4 +1,5 @@
 El ordenamiento topológico organiza los nodos de un grafo dirigido acíclico (DAG) de tal manera que, para cada arista (𝑢,𝑣) 𝑢 aparece antes que 𝑣.
+si se forma un ciclo quiere decir que no es posible organizar las tareas en el orden que queremos.
 https://codeforces.com/contest/510/submission/297702148
 
 vector<vector<int>>adj;

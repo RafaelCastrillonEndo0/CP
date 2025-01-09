@@ -1,4 +1,5 @@
-El propósito principal de un Minimum Spanning Tree es encontrar un conjunto de aristas que conecten todos los vértices de un grafo de manera eficiente, de tal forma que la suma de los pesos de esas aristas sea lo más pequeña posible.
+El propósito principal de un Minimum Spanning Tree es encontrar un conjunto de aristas que conecten todos los vértices de un grafo de manera eficiente, 
+de tal forma que la suma de los pesos de esas aristas sea lo más pequeña posible.
 
 
 Propiedades clave:

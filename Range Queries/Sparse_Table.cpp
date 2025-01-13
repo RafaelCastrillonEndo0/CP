@@ -6,7 +6,7 @@
 
 
 
-
+//O(N log N)
 template <typename T>
 struct sparse_table{
     vector<vector<T>> ST;

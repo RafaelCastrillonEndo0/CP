@@ -1,3 +1,9 @@
+(Fenwick Tree o Binary Indexed Tree, BIT), una estructura de datos eficiente para realizar consultas de suma en rangos y actualizaciones puntuales en un arreglo
+
+
+
+
+
 struct FenwickTree {
     vector<int> bit;
     int n;

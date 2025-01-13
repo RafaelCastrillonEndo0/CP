@@ -14,9 +14,12 @@ struct FenwickTree {
         bit.assign(n, 0);
     }
 
-    FenwickTree(vector<int> const &a) : FenwickTree(a.size()) {
-        for (size_t i = 0; i < a.size(); i++)
-            add(i, a[i]);
+    FenwickTree(vector<int> const &a) : FenwickTree(a.size()){
+	    for (int i = 0; i < n; i++) {
+	        bit[i] += a[i];
+	        int r = i | (i + 1);
+	        if (r < n) bit[r] += bit[i];
+	    }
     }
 
     int sum(int r) {

@@ -24,7 +24,7 @@ struct sparse_table{
             }
         }
     }
-    
+    //O(1)
     T get(int L, int R){
         R++;
         int d = 31 - __builtin_clz(R - L);

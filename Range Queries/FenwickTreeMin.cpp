@@ -1,4 +1,4 @@
-//Logramos obtener el minimo para un  rango desde [0,R] no funcionar para consultar rangos entre [L,R]
+//Logramos obtener el minimo para un  rango desde [0,R] no funciona para consultar rangos entre [L,R]
 //complejidad -> update ( O(LogN) ) -> Constructor ( O(NLogN) )
 
 

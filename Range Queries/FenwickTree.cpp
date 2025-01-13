@@ -1,4 +1,5 @@
 (Fenwick Tree o Binary Indexed Tree, BIT), una estructura de datos eficiente para realizar consultas de suma en rangos y actualizaciones puntuales en un arreglo
+con el metodo add se logra modificar correctamente un indice y asi mismo se modifica donde la modificacion en el indice hace un cambio.
 
 
 

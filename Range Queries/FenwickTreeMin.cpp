@@ -1,6 +1,6 @@
 //Logramos obtener el minimo para un  rango desde [0,R] no funciona para consultar rangos entre [L,R]
 //complejidad -> update ( O(LogN) ) -> Constructor ( O(NLogN) )
-
+//La operación update ajusta el valor en el índice idx y propaga la actualización a través de los nodos relevantes del Fenwick Tree.
 
 
 struct FenwickTreeMin {

@@ -1,3 +1,4 @@
+//Factorizacion prima de un nuemero 
 vector<int>factores;
 void factors(int &n){
 	for(int i=2; i*i<=n; i++){

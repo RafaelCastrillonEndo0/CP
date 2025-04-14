@@ -1,4 +1,4 @@
-//Cantidad de numero que cumplen -> gcd(n,a) == 1 .... desde 1 hasta n
+//Cantidad de numeros que cumplen -> gcd(n,a) == 1 .... desde 1... n
 
 int phi(int n){
 	int res = n;
@@ -10,4 +10,23 @@ int phi(int n){
 	}
 	if(n > 1) res -= res / n;
 	return res;
+}
+
+
+//Cantidad de numeros que complen -> gcd(a,b) para todos los 1...n
+vi phi;
+void phi_n(int n){
+	phi.assign(n + 1, 0);
+	phi[0] = 0;
+	phi[1] = 1;
+	for(int i = 0; i <= n; i++){
+		phi[i] = i;
+	}
+	for(int i = 2; i <= n; i++){
+		if(phi[i] == i){
+			for(int j = i; j <= n; j+=i){
+				phi[j] -= phi[j] / i;
+			}
+		}
+	}
 }

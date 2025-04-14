@@ -1,3 +1,5 @@
+//Cantidad de numero que cumplen -> gcd(n,a) == 1 .... desde 1 hasta n
+
 int phi(int n){
 	int res = n;
 	for(int i = 2; i * i <= n ; i++){

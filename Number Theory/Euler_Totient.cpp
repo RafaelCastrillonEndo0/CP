@@ -1,4 +1,4 @@
-//Cantidad de numeros que cumplen -> gcd(n,a) == 1 .... desde 1... n
+//Cantidad de numeros que cumplen -> gcd(n,a) (Coprimos con n) == 1 .... desde 1... n
 
 int phi(int n){
 	int res = n;

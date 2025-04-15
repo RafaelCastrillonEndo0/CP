@@ -13,7 +13,7 @@ int phi(int n){
 }
 
 
-//Cantidad de numeros que complen -> gcd(a,b) para todos los 1...n
+//Cantidad de numeros que complen -> gcd(a,b) (Coprimos con n)  para todos los 1...n
 vi phi;
 void phi_n(int n){
 	phi.assign(n + 1, 0);

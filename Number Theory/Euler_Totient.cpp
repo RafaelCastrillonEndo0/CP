@@ -34,5 +34,4 @@ void phi_n(int n){
 
 //       a = base m = modulo b = exponente
 //       1. cuando gcd(a,m) == 1 se y se tiene a ^ b  % m  -> se puede aplicar a ^ ( b % φ(m)) % m
-//       2. cuando gcd(a,m) != 1 no se puede aplicar directamente el teorema de euler por lo que aplicamos
 	//  x ^ (   φ(m) + (n  %  φ(m)  ) % m
